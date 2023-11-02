@@ -24,6 +24,7 @@ pipeline {
                 input message: 'proceed or abort?', ok: 'ok'
             }
         }
+        
         stage('Apply') {
             steps {
                 sh '''
